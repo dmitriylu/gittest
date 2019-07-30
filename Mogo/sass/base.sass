@@ -1,0 +1,116 @@
+// @import '../node_modules/@fortawesome/fontawesome-free/scss/fontawesome'
+@import './reset'
+@import './varibals'
+@import './mixins'
+@import './sections/header'
+@import './sections/about'
+@import './sections/facts'
+@import './sections/services'
+@import './sections/design'
+@import './sections/wedo'
+@import './sections/slider-quote'
+@import './sections/team'
+@import './sections/brands'
+@import './sections/work'
+@import './sections/testimonial'
+@import './sections/people'
+@import './sections/stories'
+@import './sections/map'
+@import './sections/footer'
+
+*
+    box-sizing: border-box
+    
+body
+    @include font(400,16,$font-base)
+
+.container
+    width: 100%
+    max-width: 1200px
+    height: 100%
+    margin: 0 auto
+
+// .clearfix::after 
+//   content: ""
+//   display: table
+//   clear: both
+
+.logo
+    text-transform: capitalize
+    @include font(700,30)
+    &-link
+        display: flex
+
+a
+    text-decoration: none
+    display: block
+    transition: .5s ease
+
+h2,h3,h4,h5,h6
+    color: $color-text__title
+    text-transform: uppercase
+h3,h4
+    @include font(700,14)
+p
+    line-height: 1.6
+::-webkit-scrollbar
+    width: 5px
+    background-color: #f5f5f5
+::-webkit-scrollbar-thumb
+    width: 5px
+    background-image: linear-gradient($color-accent 60%,#f5f5f5 60%)
+// ::-webkit-scrollbar-track
+//     // border: 1px solid black
+//     background-color: green
+
+img
+    width: 100%
+    height: auto
+    display: block
+
+// section-content
+.section-content
+    max-width: 955px
+    margin: 0 auto
+    padding: 90px 0 0
+    text-align: center
+    position: relative
+    &__title
+        @include font(400,24,$font-title)
+        margin: 0 0 20px
+    &__heading
+        @include font(700,30)
+        margin: 0 0 35px
+    &__line
+        width: 60px
+        height: 3px
+        margin: 0 auto 50px
+        background: $color-secondary
+    &__text
+        @include font(400,15,$font-text)
+        color: $color-text__secondary
+        line-height: 1.5em
+
+    // photo-overley
+.photo-item
+    width: 380px
+    position: relative
+    transition: .5s ease
+    &:hover
+        box-shadow: 10px 10px $color-accent
+        transition: .5s ease
+.photo-overlay
+    @include cover($bg_gradient)
+    @include flex(column)
+    color: $color-text__primari
+    @include transform(.5s ease,0)
+    &__icon
+        font-size: 30px
+    &__text
+        @include font(700,18)
+        text-transform: uppercase  
+        line-height: 1.6em
+.photo-item:hover .photo-overlay
+    @include transform(.5s ease,1)
+
+

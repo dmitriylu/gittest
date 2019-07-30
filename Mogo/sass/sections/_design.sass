@@ -1,0 +1,23 @@
+.design
+    @include backgound('../img/bg/bg-designe.jpeg')
+    height: 850px
+    position: relative
+    &::before
+        @include cover($bg-overlay)
+    .design-imeges
+        position: absolute
+        bottom: 0
+        left: 50%
+        transform: translateX(-50%)
+        .design-imege1
+            img
+                width: 480px
+        .design-imege2
+            position: absolute
+            bottom: -70px
+            right: -50px
+            img
+                width: 205px
+               
+
+        

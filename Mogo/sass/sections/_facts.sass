@@ -1,0 +1,25 @@
+.facts
+    width: 100%
+    background: $color-accent
+    color: $color-text__primari
+    text-transform: uppercase
+    .facts-content
+        display: flex
+        flex-wrap: wrap
+        .fact-item
+            width: 240px
+            min-height: 270px
+            border-left: 1px solid rgb(255, 255, 255,0.3) 
+            border-right: 1px solid rgb(255, 255, 255,0.3)
+            @include flex(column)
+            &__number
+                @include font(700,72)
+                margin: 0 0 30px
+            &__text
+                font-size: 15px
+
+
+
+
+
+        
