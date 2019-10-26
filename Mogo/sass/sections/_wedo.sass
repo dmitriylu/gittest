@@ -1,0 +1,54 @@
+.wedo
+    width: 100%
+    min-height: 900px
+    &__content
+        display: flex
+        justify-content: space-between
+        margin: 90px 0 0 0
+        &-image 
+            width: 570px
+.webo__akordion
+            max-width: 600px
+            width: 100%
+            .card
+                max-width: 600px
+                width: 100%
+                border: 1px solid $color-border
+                margin: 0 0 10px
+                &__top 
+                    display: flex
+                    justify-content: space-between
+                    align-items: center
+                    height: 60px
+                    cursor: pointer
+                    // border-bottom: 1px solid #cccc
+                    padding: 0 15px
+                &__title 
+                    display: flex
+                    align-items: center
+                    text-transform: uppercase
+                &__title img 
+                    width: 30px
+                    margin: 0 15px 0 0
+                &__arrow
+                    width: 22px
+                &__arrow img:first-child 
+                    display: none
+                &__down 
+                    padding: 15px
+                    height: 180px
+                    overflow-y: scroll
+                    border-top: 1px solid $color-border 
+                    display: none
+                &__text
+                    @include font(300,15,$font-text)
+                    font-style: italic
+                    color: $color-text__secondary
+                    line-height: 1.5em
+                    padding: 15px
+
+
+        
+
+            
+                    

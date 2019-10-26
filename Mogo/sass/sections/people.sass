@@ -1,0 +1,38 @@
+.people
+    width: 100%
+    min-height: 830px
+    @include backgound('../img/bg/bg-people.jpeg')
+    position: relative
+    &::before
+        @include cover($bg-overlay)
+    .persons
+        display: flex
+        justify-content: space-around
+        flex-wrap: wrap
+        margin: 120px 0 0 0
+    .person
+        position: relative
+        display: flex
+        margin: 0 0 65px
+    .person-photo
+            width: 110px
+            margin: 0 30px 0 0
+    .person-description
+        max-width: 375px
+        &__name
+
+        &__position
+             @include font(300,15,$font-text)
+             font-style: italic
+             text-transform: capitalize
+             line-height: 1.6
+             color: #4c4c4c
+        &__line
+            width: 60px
+            height: 3px
+            background: $color-secondary
+            margin: 15px 0 20px
+        &__text
+        @include font(400,15,$font-text)
+        color: $color-text__secondary
+        line-height: 1.6
