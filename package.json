@@ -1,11 +1,12 @@
-
 {
   "name": "gittest",
   "version": "1.0.0",
   "description": "изучаю Git",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "parcel --no-cache index.html --open",
+    "build": "parcel build index.js"
   },
   "repository": {
     "type": "git",
@@ -17,5 +18,10 @@
   "bugs": {
     "url": "https://github.com/dmitriylu/gittest/issues"
   },
-  "homepage": "https://github.com/dmitriylu/gittest#readme"
+  "homepage": "https://github.com/dmitriylu/gittest#readme",
+  "devDependencies": {
+    "autoprefixer": "^9.7.0",
+    "parcel-bundler": "^1.12.4",
+    "sass": "^1.23.1"
+  }
 }
