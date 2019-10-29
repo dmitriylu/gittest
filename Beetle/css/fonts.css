@@ -1,0 +1,54 @@
+
+@font-face {
+    font-family: 'montserratbold';
+    src: url('../fonts/montserat/montserrat-bold-webfont.eot');
+    src: url('../fonts/montserat/montserrat-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/montserat/montserrat-bold-webfont.woff2') format('woff2'),
+         url('../fonts/montserat/montserrat-bold-webfont.woff') format('woff'),
+         url('../fonts/montserat/montserrat-bold-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+@font-face {
+    font-family: 'montserratregular';
+    src: url('../fonts/montserat/montserrat-regular-webfont.eot');
+    src: url('../fonts/montserat/montserrat-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/montserat/montserrat-regular-webfont.woff2') format('woff2'),
+         url('../fonts/montserat/montserrat-regular-webfont.woff') format('woff'),
+         url('../fonts/montserat/montserrat-regular-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'open_sansregular';
+    src: url('../fonts/opensans/opensans-regular-webfont.eot');
+    src: url('../fonts/opensana/opensans-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/opensans/opensans-regular-webfont.woff2') format('woff2'),
+         url('../fonts/opensans/opensans-regular-webfont.woff') format('woff'),
+         url('../fonts/opensans/opensans-regular-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'open_sansitalic';
+    src: url('../fonts/opensans/opensans-italic-webfont.eot');
+    src: url('../fonts/opensans/opensans-italic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/opensans/opensans-italic-webfont.woff2') format('woff2'),
+         url('../fonts/opensans/opensans-italic-webfont.woff') format('woff'),
+         url('../fonts/opensans/opensans-italic-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
