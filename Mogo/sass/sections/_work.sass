@@ -1,0 +1,51 @@
+.work
+    width: 100%
+    min-height: 960px
+    &-photo
+        display: flex
+        margin: 100px 0 0
+.work-photo__left
+            display: flex
+            flex-wrap: wrap
+            width: 50%
+            .image1,.image2,.image3,.image4
+                width: 50%
+                position: relative
+.work-photo__right
+            display: flex
+            width: 50%
+            .image5,.image6,.image7
+                width: 100%
+                position: relative
+            .wrapper-img
+                width: 100% 
+.image-overlay
+    position: absolute
+    top: 0
+    left: 0
+    right: 0
+    bottom: 0
+    background: $bg_gradient
+    color: $color-text__primari
+    display: none
+    &__icon
+        width: 30px
+    &__title
+        @include font(400,14)
+        text-transform: uppercase
+        margin: 20px 0
+    &__text
+        @include font(300,15,$font-text)
+        font-style: italic
+
+        
+
+
+.image1:hover .image-overlay,
+.image2:hover .image-overlay,
+.image3:hover .image-overlay,
+.image4:hover .image-overlay,
+.image5:hover .image-overlay,
+.image6:hover .image-overlay,
+.image7:hover .image-overlay
+    @include flex(column)

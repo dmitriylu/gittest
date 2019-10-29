@@ -1,0 +1,39 @@
+.team
+    width: 100%
+    min-height: 1050px
+    &-members
+        margin: 90px 0 0
+        display: flex
+        justify-content: space-between
+        flex-wrap: wrap
+        .member
+            @include flex(column)
+            &__name
+                line-height: 1.2
+                margin: 27px 0 5px
+            &__position
+                @include font(300,15,$font-text)
+                font-style: italic
+                color: $color-text__secondary
+                line-height: 1.6
+        .photo-overlay__icons
+            display: flex
+            .icon-block
+                width: 55px
+                height: 55px
+                background: $color-primary
+                color: $color-secondary
+                cursor: pointer
+                border-right: 1px solid #f9bd87
+                @include flex(column)
+                font-size: 30px
+                &:hover
+                    background: $color-secondary
+                    color: $color-text__primari
+                    border-right: 0px
+                    @include transform(.5s ease,1)
+            & :last-child
+                border-right: 0px 
+
+                
+

@@ -1,0 +1,21 @@
+.map
+    width: 100%
+    height: 200px
+    @include backgound('../img/bg/bg-map.jpeg')
+    position: relative
+    @include flex(column)
+    &::before
+        @include cover($bg-overlay)
+    .map-content
+        @include flex(column)
+        position: relative
+        &__icon
+            width: 20px
+            margin: 0 0 17px 0
+        &__title
+            @include font(700,24)
+            margin: 0 0 20px 0
+            h2
+                color: $color-secondary
+        .section-content__line
+            margin: 0px
