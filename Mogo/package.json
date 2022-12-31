@@ -15,7 +15,7 @@
     "autoprefixer": "^9.6.1",
     "jquery": "^3.4.1",
     "owl.carousel": "^2.3.4",
-    "postcss-modules": "^1.4.1",
+    "postcss-modules": "^6.0.0",
     "reset-css": "^4.0.1",
     "sass": "^1.22.1"
   },
